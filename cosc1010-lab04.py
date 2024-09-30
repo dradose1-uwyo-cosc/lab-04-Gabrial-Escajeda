@@ -101,13 +101,22 @@ min_temps = [
 
 temps = (max_temps,min_temps)
 
-for average in temps:
-    average1 = sum(temps[0])/len(max_temps)
-    average2 = sum(temps[1])/len(min_temps)
+minSum = 0
+maxSum = 0
 
-print(f'The average for highest temperatures is {average1} and the average for lowest temperatures is {average2}')
+for i in range(len(max_temps)):
+    minSum += min_temps[i]
+    maxSum += max_temps[i]
+
+minSum = minSum/len(min_temps)
+maxSum = maxSum/len(max_temps)
+
+print(f'The average for highest temperatures is {maxSum} and the average for lowest temperatures is {minSum}')
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
+Max = max(max_temps)
+Min = min(min_temps)
 
+print(f'the max tempurature was {Max} and the min tempurature was {Min}')
