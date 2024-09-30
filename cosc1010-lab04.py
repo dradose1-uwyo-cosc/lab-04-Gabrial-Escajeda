@@ -99,8 +99,10 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
+
+
 for max in max_temps:
-    max = (max_temps[])
+    max = []
     print(max)
 
 
