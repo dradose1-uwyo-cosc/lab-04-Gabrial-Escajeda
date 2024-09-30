@@ -1,6 +1,6 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# Gabrial Escajeda 
+## Lab 04
+## Submission date: 30/09/24
 ## Worked with/sources 
 * example
 * example
