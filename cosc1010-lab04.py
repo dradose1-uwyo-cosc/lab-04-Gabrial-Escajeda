@@ -1,6 +1,6 @@
 # Gabrial Escajeda
 # UWYO COSC 1010
-# 30/09/24
+# 09/30/24
 # Lab 04
 # Lab Section: 14
 # Sources, people worked with, help given to: 
